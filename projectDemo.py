@@ -35,7 +35,10 @@ def botoncito():
             #        'Contract Type': ['Food', 'Integral Services', 'Construction materials', 'Health', 'Others'],
             #        'Probability': [0.99, 0.97, 0.94, 0.90, 0.85]}
             #df = pd.DataFrame(data)
+def codigoSugerido():
+    st.header('Analysis results')
 
 imagen()
 cabecera()
 botoncito()
+codigoSugerido()
