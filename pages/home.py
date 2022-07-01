@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+st.markdown("# Page 3 🎉")
+st.sidebar.markdown("# Page 3 🎉")
+
 def cabecera():
     st.title("Colombia Compra Eficiente")
 
-def imagen():
-    image = Image.open('colombiaCompra.png')
-    st.image(image, caption='Sunrise by the mountains')
 def botoncito():
     # Cargar el Archivo
     uploaded_file = st.file_uploader("Choose a file")
@@ -20,8 +20,6 @@ def botoncito():
                     ' It gives you a suggestion to change your **UNSPC** code or a recommendation'
                     ' for your contract ')
         st.subheader('Words Count')
-        image = Image.open('servicios.png')
-        st.image(image, caption='Sunrise by the mountains')
         # Grafica
         #g = df1['Sale Price']
         #st.line_chart(g)
@@ -38,7 +36,6 @@ def botoncito():
 def codigoSugerido():
     st.header('Analysis results')
 
-imagen()
 cabecera()
 botoncito()
 codigoSugerido()
