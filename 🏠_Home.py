@@ -21,6 +21,6 @@ def imagen():
     st.image(image, caption='')
     image2 = Image.open('home2.png')
     st.image(image2, caption='')
-
+    st.markdown('[* Source: Colombia Compra Eficiente](https://www.colombiacompra.gov.co/sites/cce_public/files/cce_clasificador/manualclasificador.pdf)')
 
 imagen()
