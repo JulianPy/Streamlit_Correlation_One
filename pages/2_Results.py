@@ -2,38 +2,21 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
+with open('style.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html = True)
+
 st.markdown("# Second Step: Results")
 st.sidebar.markdown("# Results")
 
-def codigoSugerido():
-    st.header('Analysis results')
-    #st.text('10101501')  
-    #st.text('90%') 
-    st.subheader('10101501')
-    st.subheader('90%')
+st.markdown('Here you will find the code that best suits your contract. The suggestion is given until class, to complete the last 2 digits of your code, we recommend you access the Colombia Compra Eficiente page where you can find the codes for products: [Classifier of goods and services](https://www.colombiacompra.gov.co/clasificador-de-bienes-y-Servicios) ')
+col1f,col2f = st.columns(2)
+col1f.subheader('Best code')
+col2f.metric('98%', '101015')
 
-    st.subheader('Classification')
-
-    #st.table(columns= )
-
-    df = pd.DataFrame(
-    columns=('Percentage', 'Category', 'Detail')
-    )
-
-    row1 = ['70%', 'Segment', '10- Live Plant and Animal']
-    row2 = ['90%', 'Family', '10- Live Animals']
-    row3 = ['60%', 'Class', '15- Livestock']
-    row4 = ['80%', 'Commodity', '01- Cats']
-
-    df = df.append(pd.Series(row1, index=df.columns[:len(row1)]), ignore_index=True)
-    df = df.append(pd.Series(row2, index=df.columns[:len(row2)]), ignore_index=True)
-    df = df.append(pd.Series(row3, index=df.columns[:len(row3)]), ignore_index=True)
-    df = df.append(pd.Series(row4, index=df.columns[:len(row4)]), ignore_index=True)
-
-    st.table(df)
+col1,col2,col3 = st.columns(3)
+col1.metric('Segment', '10', '70%')
+col2.metric('Family', '10', '90%')
+col3.metric('Class', '15', '60%')
 
 
-
-
-codigoSugerido()
 
