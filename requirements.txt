@@ -16,3 +16,4 @@ sklearn
 pandas
 numpy
 python-dotenv==0.20.0
+python==3.9
