@@ -10,9 +10,9 @@ unidecode
 tensorflow>=2.0.0
 tensorflow-text>=2.0
 imblearn
-sodapy,
-nltk,
-sklearn,
-pandas,
-numpy,
+sodapy
+nltk
+sklearn
+pandas
+numpy
 python-dotenv==0.20.0
