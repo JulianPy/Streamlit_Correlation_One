@@ -4,30 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b82cb4a2-e718-4cda-9098-e8e43f190134" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Streamlit_Correlation_One.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/1_Upload_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/1_Upload_contract.py" afterDir="false" />
+    <list default="true" id="fe83e04f-8f50-4e54-b6c8-abb6ad71e936" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2BJvHKALJUj3KssHuyd0VsjRgCB" />
+  <component name="ProjectId" id="2BVIpadOsynmco69Rtc2TE2x3Ku" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,11 +28,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b82cb4a2-e718-4cda-9098-e8e43f190134" name="Changes" comment="" />
-      <created>1656636919828</created>
+      <changelist id="fe83e04f-8f50-4e54-b6c8-abb6ad71e936" name="Changes" comment="" />
+      <created>1656985021204</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656636919828</updated>
+      <updated>1656985021204</updated>
     </task>
     <servers />
   </component>
